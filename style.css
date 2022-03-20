@@ -1,0 +1,173 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    max-width: 1200px;
+    background-color: black;
+    margin: auto;
+    
+}
+
+.tudo{
+background-color: #504c4a;
+
+}
+
+
+header{
+    background-color: #cd853f;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    border: 20px 20px  white ;
+    text-align: center;
+    padding-right: 90px;
+}
+
+
+li{
+    list-style: none;
+    display: inline-block;
+    background-color: #504c4a;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 25px;
+    
+}
+
+
+main{
+    /* width: 200px; */
+    text-align: center ;
+    padding: 70px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+@font-face {
+    font-family:Minha-fonte;
+    src: url(./fonte/pricedown.otf);
+}
+
+h1{
+    margin: 0px;
+    padding: -50px;
+}
+
+.up{
+    font-family: Minha-fonte;
+    font-size: 30px;
+    margin: -10px;
+    color: white;
+    text-shadow: 4px 4px black;
+}
+
+@font-face {
+    font-family:Minha-fonte2;
+    src: url(./fonte/OLDENGL.TTF);
+}
+
+.donw{
+    font-family:Minha-fonte2;
+    margin-top: 0px;
+    text-shadow: 1px 1px white;
+    font-size: 35px;
+}
+
+h3{
+    font-family: Minha-fonte3;
+    text-align: center;
+    color: white;   
+    font-size: 25px;
+    text-shadow: 3px black;
+    text-decoration: none;
+}
+
+.people{
+    width: 500px;
+    position: relative;
+   margin-top: 80px;
+    margin-left:-450px;
+    padding-bottom:400px ;
+    margin-bottom: -400px;
+    padding-left: 150px;
+    box-shadow: 10px white;
+    display: inline-block;
+   
+}
+.capa{
+    float: right;
+    width: 500px;
+    height: 750px;
+    position: absolute;
+    margin-right:-350px;
+    padding-top: 20PX;
+}
+
+.up, .donw, .last{
+
+    margin-left:-400px;
+    
+}
+.mov{
+    margin-bottom: 350px;
+    
+}
+.mov2{
+    margin-top: -390px;
+    margin-left: -120px;
+}
+
+.caracters{
+float: right;
+padding-top: 300px;
+padding-right:60px;
+margin-right: -50px;
+margin-left: -290px;
+padding-left: -130px;
+}
+
+@font-face {
+    font-family:Minha-fonte3;
+    src: url(./fonte/LeagueGothic-Regular-VariableFont_wdth.ttf);
+}
+
+li{  
+    font-family:Minha-fonte3;
+    text-shadow: 1px 1px #cd853f;
+    color: black;
+    text-decoration: none;
+
+}
+
+.pic{
+    width: 100px;
+    border-radius: 50px;
+    border-style: dashed;
+    border-color: #cd853f;
+    
+}
+
+.middle{
+width: 400px;
+margin-left: 68px;
+background-color: #cd853f;
+
+}
+
+.inicio{
+width: 200px;
+}
+
+@font-face {
+    font-family:Minha-fonte4;
+    src: url(./fonte/OpenSans_Condensed-Light.ttf)
+    }
+
+.description{
+    font-family: Minha-fonte4;
+    font-size: 28px;
+}
+
